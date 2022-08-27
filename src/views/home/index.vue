@@ -11,7 +11,9 @@ proxy.$message('this is a message.')
 <template>
   首页
   <el-button>button</el-button>
+  <div class="text">fjalkfjgfsdjkhjlshhskfdl</div>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
+@import "@/assets/scss/home/index.scss"
 </style>

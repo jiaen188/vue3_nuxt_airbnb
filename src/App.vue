@@ -23,7 +23,7 @@ const router = useRouter()
   <router-view></router-view>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 .logo {
   height: 6em;
   padding: 1.5em;
