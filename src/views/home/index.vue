@@ -2,6 +2,9 @@
 import { getCurrentInstance } from 'vue'
 import { useRoute } from 'vue-router'
 import { fetchRoomList } from '../../api'
+import { useI18n } from 'vue-i18n'
+
+const { t } = useI18n()
 const route = useRoute()
 console.log(route.params, route.query)
 
@@ -14,7 +17,7 @@ getRoomList()
 </script>
 
 <template>
-  首页
+  {{t('message.home')}}这是动态的中英文
   <el-button>button</el-button>
   <div class="text">fjalkfjgfsdjkhjlshhskfdl</div>
 </template>
